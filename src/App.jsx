@@ -1,15 +1,16 @@
 import { useState } from "react";
 import Container from "./components/Container";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1>Gallery App</h1>
-      <hr />
-
+      <Header />
       <Container />
+      <Footer />
     </>
   );
 }
